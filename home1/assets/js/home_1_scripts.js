@@ -74,9 +74,9 @@ $(document).ready(function () {
 
     // ------------ tc-projects-slider1 -----------
     var swiper = new Swiper(".tc-projects-style1 .projects-slider", {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 30,
-        // centeredSlides: true,
+        centeredSlides: true,
         speed: 1000,
         pagination: false,
         navigation: false,
@@ -92,10 +92,10 @@ $(document).ready(function () {
                 slidesPerView: 1,
             },
             787: {
-                slidesPerView: 1.5,
+                slidesPerView: 2,
             },
             991: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             },
             1200: {
                 slidesPerView: 2,
@@ -153,6 +153,48 @@ $(document).ready(function () {
             },
         },
     });
+
+     // testimonials img slider
+     var swiper = new Swiper('.tc-testimonials-style2 .img-slider', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        // centeredSlides: true,
+        speed: 1000,
+        pagination: false,
+        navigation: {
+            nextEl: '.tc-testimonials-style2 .img-slider .swiper-button-next',
+            prevEl: '.tc-testimonials-style2 .img-slider .swiper-button-prev',
+        },
+        mousewheel: false,
+        keyboard: true,
+        autoplay: {
+            delay: 6000,
+        },
+        loop: true,
+    });
+
+    // ------------ tc-testimonials-style2 -----------
+    var swiper = new Swiper(".tc-testimonials-style2 .text-slider", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        speed: 1000,
+        pagination: {
+        el: ".text-side .swiper-pagination",
+        type: "fraction",
+        },
+        navigation: {
+        nextEl: ".text-side .swiper-button-next",
+        prevEl: ".text-side .swiper-button-prev",
+        },
+        mousewheel: false,
+        keyboard: true,
+        autoplay: {
+        delay: 6000,
+        },
+        loop: true,
+    });
+
 
 });
 
