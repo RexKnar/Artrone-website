@@ -499,6 +499,7 @@ input:focus {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  color: black;
 }
 
 .to_top.show {
@@ -2112,11 +2113,19 @@ input:focus {
   --color-brown1: #E5C696;
   --color-brown2: #7D764D;
   --color-light1: #eff3f6;
-  --color-orange2: #f8b493;
+  --color-orange2: #f4f1ed;
+
+}
+
+.bg-background{
+  color: #ffffff;
 }
 
 .color-blue1 {
   color: var(--color-blue1) !important;
+}
+.bg-white{
+  background-color: var(--color-light1);
 }
 
 .bg-blue1 {
@@ -2127,6 +2136,9 @@ input:focus {
   border-color: var(--color-blue1) !important;
 }
 
+.bg-footer{
+background-color: #251b34;
+}
 .hover-blue1:hover {
   color: var(--color-blue1) !important;
 }
@@ -2147,6 +2159,9 @@ input:focus {
 
 .bg-orange1 {
   background: var(--color-orange1) !important;
+}
+.bg-orange2{
+  background-color: #f1eee9;
 }
 
 .border-orange1 {

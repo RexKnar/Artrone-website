@@ -16126,7 +16126,7 @@ a {
   }
 }
 .left-swiper-area-start .single-left-banner-swiper-start .pre {
-  color: var(--color-white);
+  color: var(--color-light1);
   padding-left: 80px;
   position: relative;
 }
@@ -16136,7 +16136,7 @@ a {
   content: "";
   height: 1px;
   width: 60px;
-  background: var(--color-white);
+  background: var(--color-orange2);
   top: 50%;
 }
 .left-swiper-area-start .single-left-banner-swiper-start .pre::before {
@@ -16144,7 +16144,7 @@ a {
   content: "";
   height: 7px;
   width: 7px;
-  background: var(--color-white);
+  background: var(--color-orange2);
   border-radius: 50%;
   left: 0;
   top: 50%;
@@ -16152,7 +16152,7 @@ a {
 }
 .left-swiper-area-start .single-left-banner-swiper-start .title {
   color: #fff;
-  line-height: 1.3;
+  line-height: 1.5;
   font-size: 32px;
   margin-top: 50px;
 }
@@ -16164,6 +16164,8 @@ a {
 }
 .left-swiper-area-start .single-left-banner-swiper-start p.disc {
   color: #fff;
+  padding-top: 10px;
+  line-height: 1.9;
 }
 @media only screen and (max-width: 767px) {
   .left-swiper-area-start .single-left-banner-swiper-start p.disc {
@@ -16223,7 +16225,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 55px;
+  bottom: 35px;
 }
 @media only screen and (max-width: 575px) {
   .mySwiper-banner-one-in-two .swiper-pagination {

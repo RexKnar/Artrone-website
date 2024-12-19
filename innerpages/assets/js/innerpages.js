@@ -302,7 +302,7 @@ $(document).ready(function() {
         mousewheel: false,
         keyboard: true,
         autoplay: {
-            delay: 7000,
+            delay: 2000,
         },
         loop: true,
         breakpoints: {

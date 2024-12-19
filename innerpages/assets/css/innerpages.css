@@ -201,7 +201,7 @@
 }
 
 .inner-navbar-style1 .logo {
-  width: 100px;
+  width: 150px;
 }
 .inner-navbar-style1 .navbar-nav .nav-item:active{
   color: var(--color-blue1) !important;
@@ -2865,7 +2865,7 @@
 }
 
 .about-pg-style1 .tc-awards-style2 .award-card {
-  border: 1px solid #ccc;
+  border: 1px solid #ccc ;
   border-radius: 15px;
   padding: 30px;
   margin-top: 30px;
@@ -3040,7 +3040,7 @@
 }
 
 .services-pg-style1 .tc-services-style1 .service-card:hover .arrow {
-  background-color: #000;
+  background-color:var(--color-blue1);
   color: #fff;
 }
 
@@ -3222,7 +3222,7 @@
 
 .services-pg-style1 .tc-testimonials-style1 {
   position: relative;
-  padding: 150px 0;
+  padding: 0px 0;
 }
 
 .services-pg-style1 .tc-testimonials-style1 .c-line {
@@ -3333,7 +3333,7 @@
 .services-pg-style1 .tc-testimonials-style1 .marq-slider {
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .services-pg-style1 .tc-testimonials-style1 .marq-slider .swiper-wrapper {
